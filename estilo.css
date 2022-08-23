@@ -1,8 +1,23 @@
 body {
-  background-color: rgb(187, 187, 185)
+  background-color: rgb(255, 181, 230);
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 90%;
+  height: 155px;
+}
+h2 {
+  text-align: absolute;
+  position: relative;
+ left: 20px;
+ top: 100px;
+ width: 90%;
+ height: 100px;
 }
 .menuPrincipal {
    position: absolute;
@@ -10,7 +25,7 @@ h1 {
    left: 0;
    width: 100%;
    height: 45px;
-   background: rgb(37, 54, 41);
+   background: rgb(255, 104, 247);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -30,22 +45,99 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-   color: black;
-   background: rgb(156, 228, 212);
+   color: rgb(0, 0, 0);
+   background: rgb(178, 137, 255);
 }
-#galo {
-  width: 10%
+#camaleao {
+  width: 15%;
 }
-.caixagalo {
-  position:absolute;
-  top: 45px
+.caixaCamaleão {
+  position: absolute;
+  top: 45px;
   left: 0;
-  width: 90%
-  heigin: 155px;
-  background: rgb (170, 201, 211);
-  margin: 20px
-  border-width: 20px 
-  border-color: blue;
+  width: 90%;
+  height: 155px;
+  background: rgb(149, 255, 154);
+  margin: 20px;
+  border-width: 20px;
+  border-color: rgb(136, 136, 255);
   border-style: solid;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background: palevioletred;
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+}
+#camaleao2 {
+  width: 15%;
+}
+.caixaCamaleão2 {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 90%;
+  height: 200px;
+  background: rgb(54, 154, 255);
+  margin: 20px;
+  border-width: 20px;
+  border-color: rgb(255, 75, 25);
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background: palevioletred;
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+}
+.caixaCamaleão3 {
+  position: absolute;
+  top: 600px;
+  left: 0;
+  width: 90%;
+  height: 200px;
+  background: rgb(255, 218, 98);
+  margin: 20px;
+  border-width: 20px;
+  border-color: rgb(219, 17, 255);
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 35px;
+   background: palevioletred;
+   color: blanchedalmond;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
 }
